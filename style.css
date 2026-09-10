@@ -60,6 +60,11 @@ border-left: 2px solid gray !important;
     font-size: 14px !important;
 }
 
+
+.hero-title-line h2{
+    font-size: 64px !important;
+}
+
 .hero-title-line h2::after{
      position: absolute;
      content: "";
@@ -69,4 +74,9 @@ border-left: 2px solid gray !important;
      height: 2px;
      background-color: orange;
     
+}
+
+ .hero-btn button{
+    background-color: orange !important;
+
 }
