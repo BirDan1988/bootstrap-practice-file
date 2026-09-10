@@ -63,10 +63,10 @@ border-left: 2px solid gray !important;
 .hero-title-line h2::after{
      position: absolute;
      content: "";
-     left: 10px;
+     left: 0;
      bottom: -10px;
-     width: 20px;
-     height: 5px;
+     width: 30px;
+     height: 2px;
      background-color: orange;
     
 }
