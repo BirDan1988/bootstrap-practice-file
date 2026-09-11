@@ -5,12 +5,14 @@
 }
 
 .hero-bg{
-    background-image: url("https://images.pexels.com/photos/20739912/pexels-photo-20739912.jpeg");
+    background-image: url("images/hero-bg.png");
     background-position: center;
     background-size: cover;
     background-repeat:no-repeat;
     width: 100%;
-    height: 600px; 
+    padding:12px 36px;
+
+ 
 }
 
 .hero-overlay{
@@ -80,3 +82,70 @@ border-left: 2px solid gray !important;
     background-color: orange !important;
 
 }
+
+.hero-feature_part_bg{
+    background-color: #151818;
+}
+
+
+.btn_circle{
+    width: 35px;
+    height: 35px;
+}
+
+.previous-btnn{
+    content: "" !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    left: 15px !important;
+}
+
+.next-btnn{
+    content: "" !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    right: 15px !important;
+}
+
+
+.destination-details{
+    background-image: url("images/image-1.png") !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    
+   
+}
+
+.destination-map{
+    background-image: url("images/image-2.png") !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    
+   
+}
+
+
+.destination-map .location-bg {
+    width: 35px;
+    height: 35px;
+    top: 20px;
+    right: 20px;
+}
+.floating-card{
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+     
+}
+
+.floating-card-box .box-image img,.floating-btn-prev .fa-angle-left{
+    width: 35px !important;
+    height: 35px !important;
+}
+
+.floating-card-box .box-image p{
+    font-size: 8px !important;
+}
+

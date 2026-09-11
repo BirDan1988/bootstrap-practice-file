@@ -15,8 +15,14 @@
 </head>
 <body>
  <!-- hero+header -->
-    <div class="container">
+    <div class="container-fluid">
+        <div class="container">
         <div class="hero-bg position-relative">
+             <div class="previous-btnn position-absolute">
+                <div class="btn_circle bg-dark opacity-50 d-inline-flex justify-content-center align-items-center rounded-circle border border-white">
+                    <i class="fa-solid fa-angle-left text-light fs-4"></i>
+                </div>
+             </div>
             <div class="hero-overlay position-absolute top-0 start-0 w-100 h-100"></div>
             <!-- navbar -->
 
@@ -64,7 +70,7 @@
             </nav>
 
             <!-- hero-headings -->
-             <div class="heading-section position-relative z-index-2 mt-5">
+             <div class="heading-section position-relative z-2 mt-5">
             <div class="container-fluid">
                 <div class="container">
                  <div class="hero-title-line">
@@ -84,8 +90,8 @@
                     <p class="mb-0 fs-6 gray-color">03</p>
                     <p class="mb-0 fs-6 gray-color">04</p>
                  </div>
-                 <div class="hero-feature-part mt-2">
-                    <div class="row p-5 bg-secondary mx-5 rounded-2">
+                 <div class="hero-feature-part my-3">
+                    <div class="row p-3 hero-feature_part_bg mx-5 rounded-2">
                         <div class="destinations col ">
                             <div class="destination-icon d-flex align-items-center gap-2">
                                 <i class="fa-solid fa-location-dot fs-2 color-orange"></i>
@@ -128,29 +134,118 @@
                 </div>
             </div>
              </div>
+             <div class="next-btnn position-absolute">
+                <div class="btn_circle bg-dark opacity-50 d-inline-flex justify-content-center align-items-center rounded-circle border border-white">
+                    <i class="fa-solid fa-angle-right text-light fs-4"></i>
+                </div>
+             </div>
+
+            
         </div>
+    </div>
     </div>
 
     <!-- destinations -->
-     <div class="container-fluid">
+     <div class="container-fluid mt-5">
         <div class="container">
-            <div class="row">
-                <div class="col-7">
-                    <div class="row">
+            <div class="row ">
+                <div class="col-8 destination-details position-relative">
+                    <div class="row ">
                         <div class="col-6">
                             <div class="destinations-title">
                                 <p class="text-success fs-6"><i class="fa-solid fa-location-dot"></i> Destinations</p>
                             </div>
                             <div class="destination-headings">
                                 <h2 class="text-dark fs-1">Discover Our <span class="text-success">Destinations</span></h2>
+                                <div class="icon-patter">
+                                    <img src="images/line.png">
+                                    <img src="images/icon-1.png">
+                                    <img src="images/line.png">
+                                </div>
+                                <p>Explore Albania virtually through
+                                   our interactive map. Click on any
+                                   region to discover its beauty,
+                                   attractions, culture and more.</p>
+                                   <div class="deatination-features d-flex flex-column align-items-start gap-3">
+                                    <div class="destination-1 px-4 py-2 rounded-2 bg-white shadow d-inline-flex align-items-center gap-3">
+                                        <i class="fa-regular fa-map fs-3 text-success"></i>
+                                        <div class="map-title">
+                                            <h4 class="fs-5 text-dark-50 fw-medium mb-0">Interactive Map</h4>
+                                            <p class="fs-6 text-black-50 mb-0 mt-2">Explore Every Region</p>
+                                        </div>
+                                    </div>
+                                    <div class="destination-2 px-4 py-2 rounded-2 bg-white shadow d-inline-flex align-items-center gap-3">
+                                        <i class="fa-regular fa-image fs-3 text-success"></i>
+                                        <div class="map-title">
+                                            <h4 class="fs-5 text-dark-50 fw-medium mb-0">Top Attractions</h4>
+                                            <p class="fs-6 text-black-50 mb-0 mt-2">Explore Every Region</p>
+                                        </div>
+                                    </div>
+                                    <div class="destination-3 px-4 py-2 rounded-2 bg-white shadow d-inline-flex align-items-center gap-3">
+                                        <i class="fa-solid fa-building columns fs-3 text-success"></i>
+                                        <div class="map-title">
+                                            <h4 class="fs-5 text-dark-50 fw-medium mb-0">Cultural Highlights</h4>
+                                            <p class="fs-6 text-black-50 mb-0 mt-2">Explore Every Region</p>
+                                        </div>
+                                    </div>
+                                    <div class="destination-4 px-4 py-3 rounded-2  shadow d-inline-flex align-items-center gap-3 border border-success">
+                                        <i class="fa-regular fa-map fs-3 text-success"></i>
+                                        <div class="map-title ">
+                                            <h4 class="fs-6 text-dark-50  mb-0 d-flex align-items-center gap-2 text-success">View Full Interactive Map<i class="fa-solid fa-arrow-right"></i></h4>    
+                                    </div>
+                                   </div>
                             </div>
                         </div>
-                        <div class="col-6">
-
+                        </div>
+                        <div class="col-6  destination-map m-0 position-relative ">
+                            <div class="location-bg d-flex rounded-circle bg-secondary-subtle justify-content-center align-items-center position-absolute">
+                                <i class="fa-solid fa-location-arrow "></i>
+                            </div>
+                                 
                         </div>
                     </div>
+                    <div class="floating-card position-absolute bg-secondary-subtle d-flex rounded-pill px-4 py-3 gap-2 align-items-center">
+                        <div class="floating-btn-pre d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-angle-left fs-5"></i>
+                        </div>
+                    <div class="floating-card-box">
+                        <div class="box-image">
+                            <img class="w-full" src="images/image-3.png">
+                            <p class="mb-0 text-center">Tirana</p>
+                        </div>
+                    </div>
+                    <div class="floating-card-box">
+                        <div class="box-image">
+                            <img class="w-full" src="images/image-3.png">
+                            <p class="mb-0 text-center">Tirana</p>
+                        </div>
+                    </div>
+                    <div class="floating-card-box">
+                        <div class="box-image">
+                            <img class="w-full" src="images/image-3.png">
+                            <p class="mb-0 text-center">Tirana</p>
+                        </div>
+                    </div>
+                    <div class="floating-card-box">
+                        <div class="box-image">
+                            <img class="w-full" src="images/image-3.png">
+                            <p class="mb-0 text-center">Tirana</p>
+                        </div>
+                    </div>
+                    <div class="floating-card-box">
+                        <div class="box-image">
+                            <img class="w-full" src="images/image-3.png">
+                            <p class="mb-0 text-center">Tirana</p>
+                        </div>
+                    </div>
+                    <div class="floating-btn-next d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-angle-right fs-5"></i>
+                        </div>
+
                 </div>
-                <div class="col-5"></div>
+                </div>
+                
+                <div class="col-4"></div>
             </div>
         </div>
      </div>
