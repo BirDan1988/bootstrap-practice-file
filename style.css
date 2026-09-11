@@ -25,6 +25,14 @@
     color: white !important;
 }
 
+.fs-7{
+    font-size: 14px;
+}
+
+.fs-8{
+    font-size: 12px;
+}
+
 .hero-bg-nav{
     background-color: transparent !important;
     
@@ -127,7 +135,7 @@ border-left: 2px solid gray !important;
 }
 
 
-.destination-map .location-bg {
+.destination-map .location-bg, .card-details .location-bg {
     width: 35px;
     height: 35px;
     top: 20px;
@@ -149,3 +157,13 @@ border-left: 2px solid gray !important;
     font-size: 8px !important;
 }
 
+.right-content-box .location-background{
+    width: 40px;
+    height: 40px;
+}
+
+.destination-right-content-box{
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
